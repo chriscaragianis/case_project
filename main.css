@@ -1,0 +1,18 @@
+
+.logo {
+  background-color: #008080;
+  font-size: 30rem;
+  width: 30rem;
+  word-wrap: break-word;
+  line-height: 17rem;
+  padding-top: -9rem;
+  padding-bottom: 20rem;
+  margin-top: 50vh; 
+}
+
+img {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
