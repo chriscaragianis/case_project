@@ -2,8 +2,12 @@ img {
   width: 100%;
 }
 
+table {
+  width: 50%;
+  height: 75vh;
+}
+
 .logo-box {
-  width: 20%;
   font-weight: bold;
   height: 45%;
   position: relative;
