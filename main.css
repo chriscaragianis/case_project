@@ -1,18 +1,38 @@
-
-.logo {
-  background-color: #008080;
-  font-size: 30rem;
-  width: 30rem;
-  word-wrap: break-word;
-  line-height: 17rem;
-  padding-top: -9rem;
-  padding-bottom: 20rem;
-  margin-top: 50vh; 
+img {
+  width: 100%;
 }
 
-img {
-  position: fixed;
-  top: 0;
-  left: 0;
+.logo-box {
+  width: 20%;
+  font-weight: bold;
+  height: 45%;
+  position: relative;
+}
+
+.logo-img {
+  width: 80%;
+  display: inline-block;
+}
+
+.space-box {
+  width: 20%;
+  height: 80%;
+  float: left;
+  position: relative;
+}
+.vertical-text {
+  float: left;
+  transform: rotate(-90deg);
+  transform-origin: center center;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+
+.horizontal-text {
+  float: right;
+  font-size: 1.5rem;
+  text-align: right;
 }
 
