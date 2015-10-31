@@ -13,18 +13,32 @@ table {
   background-image: url("courtroom.jpg");
   background-size: cover;
   height: 100vh;
+  position: relative;
 }
 .slide2 {
   background-image: url("rails.jpg");
   background-size: cover;
   height: 100vh;
+  position: relative;
+}
+.slide3 {
+  background-image: url("mountain.jpg");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.downarrow {
+    width: 6%;
+    bottom: 5px;
+    position: absolute;
+    margin-left: 47%;
 }
 .text1 {
   background-color: rgba(0,0,0,0);
   color: white;
   font-size: 2rem;
   width: 30%;
-  margin-left: 50%;
+  margin-left: 45%;
   padding-top: 30vh;
 }
 .logo-box {
@@ -33,6 +47,7 @@ table {
   position: fixed;
   left: 0;
   bottom: 0;
+  z-index: 100;
 }
 
 .logo-img {
